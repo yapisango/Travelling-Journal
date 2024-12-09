@@ -1,18 +1,24 @@
 {
-  "name": "Scrim-s06in8d",
+  "name": "travelling-journal",
+  "version": "1.0.0",
   "description": "https://scrimba.com/the-frontend-developer-career-path-c0j/~05mb",
+  "main": "index.js",
   "scripts": {
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
+    "serve": "vite preview",
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "19.0.0-rc-8b08e99e-20240713",
-    "react-dom": "19.0.0-rc-8b08e99e-20240713",
-    "vite": "latest"
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "*"
-  }
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^6.0.3"
+  },
+  "keywords": [],
+  "author": "Sango Mabhuti Yapi",
+  "license": "ISC"
 }
